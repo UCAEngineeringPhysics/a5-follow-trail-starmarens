@@ -20,7 +20,7 @@ You can use following definitions in your equation:
 - Encoder's counts per revolution: $CPR$
 
 > Write down linear motion equation below. 👇
-
+c = (d*CPR*i)/ r
 > [!TIP]
 > If other quantities than the listed ones are needed.
 > Please introduce them in math language.
@@ -39,6 +39,7 @@ You can use following definitions in your equation:
 - Encoder's counts per revolution: $CPR$
 
 > Write down angular motion equation(s) below. 👇
+c_1 = (L * theta * CPR * i)/(2r)
 
 > [!TIP]
 > You may find the calculation of arc length as illustrated below helpful.
@@ -48,7 +49,7 @@ You can use following definitions in your equation:
 ### 2. (15%) Wiring
 Please upload your wiring diagram below to illustrate how the motors are controlled and monitored. 👇
 
-![wiring](images/wiring_diagram.jpg)
+![wiring](images/wiring.png)
 
 ### 3. (70%) Coding
 
